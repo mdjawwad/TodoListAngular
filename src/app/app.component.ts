@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Todos-list';
+
+  isDarkThem=false;
+
+  toggleThem(){
+    this.isDarkThem = !this.isDarkThem
+  }
 }
